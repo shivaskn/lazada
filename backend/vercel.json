@@ -14,10 +14,7 @@
     "routes": [
         {
             "src": "/(.*)",
-            "dest": "src/index.js",
-            "headers": {
-                "Content-Security-Policy": "default-src 'self'; script-src 'self' 'unsafe-inline' 'unsafe-eval' blob:;"
-            }
+            "dest": "src/index.js"
         }
     ]
 }
